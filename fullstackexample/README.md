@@ -1,4 +1,4 @@
-# mevnexample
+# fullstackexample
 
 ## Project setup
 ```
@@ -10,20 +10,16 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Start MongoDB Server
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
+mongod
 ```
 
-### Lints and fixes files
+### Start Backend
 ```
-npm run lint
+node server.js
 ```
+Note: I am running the backend in a python virtual environment so that the wiki script works.
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
